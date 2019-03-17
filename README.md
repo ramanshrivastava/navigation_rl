@@ -23,9 +23,7 @@ Four discrete actions are available, corresponding to:
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Getting Started:
-The README has instructions for installing dependencies or downloading needed files.
-
-### Setting up the python environment 
+### Setting up the python environment and installing dependencies
  1. Create (and activate) a new environment with Python 3.6.
 
    - Linux or Mac:
@@ -75,11 +73,3 @@ The README has instructions for installing dependencies or downloading needed fi
 The README describes how to run the code in the repository, to train the agent. For additional resources on creating READMEs or using Markdown, see here and here.
 
 
-Dependcies 
-  Pytorch
-  Unity Environment 
-How to Install the dependencies and setup the system 
-
-Once setup is done - how to train and run the Agent to solve the environment 
-
-## TODO: you should describe the environment that you solved, along with how to install the requirements before running the code in your ![repository]()
