@@ -26,26 +26,25 @@ The task is episodic, and in order to solve the environment, the agent must get 
 The README has instructions for installing dependencies or downloading needed files.
 
 ### Setting up the python environment 
-  1. Create (and activate) a new environment with Python 3.6.
+ 1. Create (and activate) a new environment with Python 3.6.
 
-    - Linux or Mac:
-      conda create --name drlnd python=3.6
-      source activate drlnd
-Windows:
-conda create --name drlnd python=3.6 
-activate drlnd
-Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+   - Linux or Mac:
+      `conda create --name navigation python=3.6`
+      `source activate navigation`
+   - Windows:
+     `conda create --name navigation python=3.6`  
+     `activate navigation`
+  
+ 2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
+     `git clone https://github.com/ramanshrivastava/navigantion_rl.git`
+     `pip install torch`
+     `pip install numpy` 
+     `pip install matplotlib`
+     
+ 3. Create an IPython kernel for the `navigation` environment.
+    `python -m ipykernel install --user --name navigation --display-name "navigation"`
 
-Next, install the classic control environment group by following the instructions here.
-Then, install the box2d environment group by following the instructions here.
-Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
-
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
-pip install .
-Create an IPython kernel for the drlnd environment.
-python -m ipykernel install --user --name drlnd --display-name "drlnd"
-Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+ 4. Before running code in a notebook, change the kernel to match the `navigation` environment by using the drop-down Kernel menu.
 
 ### Download the Unity Environment 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
@@ -59,7 +58,7 @@ Before running code in a notebook, change the kernel to match the drlnd environm
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
 
-2. Place the file in the navigation_rl GitHub repository, in the root folder, and unzip (or decompress) the file.
+2. Place the file in the `navigation_rl` GitHub repository, in the root folder, and unzip (or decompress) the file.
 
 
 ## Instructions:
