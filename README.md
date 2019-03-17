@@ -40,13 +40,19 @@ The README has instructions for installing dependencies or downloading needed fi
      `activate navigation`
   
  2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
+ 
      `git clone https://github.com/ramanshrivastava/navigantion_rl.git`
+     
      `pip install torch`
+     
      `pip install numpy` 
+     
      `pip install matplotlib`
      
  3. Create an IPython kernel for the `navigation` environment.
+ 
     `python -m ipykernel install --user --name navigation --display-name "navigation"`
+   
 
  4. Before running code in a notebook, change the kernel to match the `navigation` environment by using the drop-down Kernel menu.
 
