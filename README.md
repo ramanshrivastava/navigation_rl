@@ -1,13 +1,23 @@
 # Navigation_RL_Agent
-An RL agent that solves unity's navigation environment 
+Training an RL agent to solve unity's Banana navigation environment.  
 
 ## Project Details:
 The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
-**Overview:** Goal is to train an agent to successfully navigate Unity's large square world environment.
+**Overview:** Goal is to train an agent to successfully navigate Unity's large square world environment of yellow and blue bananas. 
 
-**GOAL:** A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+**Goal & Rewards** 
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-**State:** The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 
+**State:** 
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 
+
+**Action:**
+Four discrete actions are available, corresponding to:
+
+- `0` - move forward.
+- `1` - move backward.
+- `2` - turn left.
+- `3` - turn right.
 
 ## Getting Started:
 The README has instructions for installing dependencies or downloading needed files.
