@@ -24,12 +24,37 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ## Getting Started:
 The README has instructions for installing dependencies or downloading needed files.
+
+### Setting up the python environment 
+  1. Create (and activate) a new environment with Python 3.6.
+
+    - Linux or Mac:
+      conda create --name drlnd python=3.6
+      source activate drlnd
+Windows:
+conda create --name drlnd python=3.6 
+activate drlnd
+Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+
+Next, install the classic control environment group by following the instructions here.
+Then, install the box2d environment group by following the instructions here.
+Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+Create an IPython kernel for the drlnd environment.
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+
+### Download the Unity Environment 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
+  - Linux: click here
+  - Mac OSX: click here
+  - Windows (32-bit): click here
+  - Windows (64-bit): click here
+
 (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
