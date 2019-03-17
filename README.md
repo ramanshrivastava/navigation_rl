@@ -73,3 +73,5 @@ The task is episodic, and in order to solve the environment, the agent must get 
 The README describes how to run the code in the repository, to train the agent. For additional resources on creating READMEs or using Markdown, see here and here.
 
 Follow the instructions in `Navigation.ipynb` to train the agent 
+
+Open the `Navigation.ipynb` jupyter notebook and execute each code cell to train the agent. 
