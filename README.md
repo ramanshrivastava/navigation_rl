@@ -1,4 +1,4 @@
-# Navigation_rl
+# Navigation_RL_Agent
 An RL agent that solves unity's navigation environment 
 
 ## Project Details:
