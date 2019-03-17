@@ -29,10 +29,14 @@ The README has instructions for installing dependencies or downloading needed fi
  1. Create (and activate) a new environment with Python 3.6.
 
    - Linux or Mac:
+ 
       `conda create --name navigation python=3.6`
       `source activate navigation`
+      
    - Windows:
+   
      `conda create --name navigation python=3.6`  
+     
      `activate navigation`
   
  2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
