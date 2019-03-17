@@ -2,16 +2,16 @@
 Training an RL agent to solve unity's Banana navigation environment.  
 
 ## Project Details:
-The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
-**Overview:** Goal is to train an agent to successfully navigate Unity's large square world environment of yellow and blue bananas. 
+**Overview:** 
+Broad goal is to train an agent to successfully navigate Unity's large square world environment of yellow and blue bananas. 
 
 **Goal & Rewards:** 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-**State:** 
+**State Space:** 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 
 
-**Action:**
+**Action Space:**
 Four discrete actions are available, corresponding to:
 
 - `0` - move forward.
