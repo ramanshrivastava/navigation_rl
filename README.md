@@ -5,7 +5,7 @@ Training an RL agent to solve unity's Banana navigation environment.
 The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
 **Overview:** Goal is to train an agent to successfully navigate Unity's large square world environment of yellow and blue bananas. 
 
-**Goal & Rewards** 
+**Goal & Rewards:** 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 **State:** 
@@ -18,6 +18,9 @@ Four discrete actions are available, corresponding to:
 - `1` - move backward.
 - `2` - turn left.
 - `3` - turn right.
+
+**Solving condition:**
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Getting Started:
 The README has instructions for installing dependencies or downloading needed files.
