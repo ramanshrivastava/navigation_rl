@@ -39,7 +39,7 @@ The README has instructions for installing dependencies or downloading needed fi
      
      `activate navigation`
   
- 2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
+ 2. Clone the repository, Then, install several dependencies.
  
      `git clone https://github.com/ramanshrivastava/navigantion_rl.git`
      
@@ -59,7 +59,7 @@ The README has instructions for installing dependencies or downloading needed fi
 ### Download the Unity Environment 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-  - Linux: click here
+  - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
   - Mac OSX: click here
   - Windows (32-bit): click here
   - Windows (64-bit): click here
