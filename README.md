@@ -72,3 +72,5 @@ The task is episodic, and in order to solve the environment, the agent must get 
 ## Instructions:
 1. Open the `Navigation.ipynb` jupyter notebook and execute each code cell to train the agent. 
 2. Once the necessary packages are imported as a next step provode the `file_name` for the `UnityEnvironment`
+3. Execute the rest of the cells as it is there after 
+4. provide the `PATH` for `.pt` file in the code cell 7 and 8 to save and load model weights. 
